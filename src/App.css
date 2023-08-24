@@ -36,3 +36,56 @@
     transform: rotate(360deg);
   }
 }
+
+.parent { 
+  background-color: blue;
+  height: 400px;
+  width: 400px;
+}
+
+.child {
+  background-color: red;
+  height: 50%;
+  width: 50%;
+}
+
+.parent:hover .child {
+  animation: animation1 2s ease-in forwards infinite;
+}
+
+@keyframes animation1 {
+  0% {
+    transform: translateX(0);
+  }
+  12.5% {
+    background-color: orangered;
+    transform: translateY(100%);
+  }
+  25% {
+    background-color: orange;
+    transform: translateX(100%) translateY(100%);
+  }
+  37.5% {
+    background-color: yellow;
+    transform: translateX(100%);
+  }
+  50% {
+    background-color: yellowgreen;
+    transform: translateX(0);
+  }
+  62.5% {
+    background-color: yellow;
+    transform: translateY(100%);
+  }
+  75% {
+    background-color: orange;
+    transform: translateX(100%) translateY(100%);
+  }
+  87.5% {
+    background-color: orangered;
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

@@ -25,7 +25,7 @@ import { PopoverExample } from './components/PopoverExample';
 import { CollapseExample } from './components/CollapseExample';
 import { ModalExample } from './components/ModalExample';
 import { PaginationExample } from './components/PaginationExample';
-import { MediaObjectExample } from './components/MediaObjectExample';
+import { AnimationExample } from './components/AnimationExample';
 
 function App() {
   return (
@@ -54,7 +54,7 @@ function App() {
         <Route path='collapse' element={<CollapseExample />} />
         <Route path='modal' element={<ModalExample />} />
         <Route path='pagination' element={<PaginationExample />} />
-        <Route path='media-object' element={<MediaObjectExample />} />
+        <Route path='animation' element={<AnimationExample />} />
       </Routes>
     </>
   );
