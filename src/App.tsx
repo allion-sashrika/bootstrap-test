@@ -26,6 +26,7 @@ import { CollapseExample } from './components/CollapseExample';
 import { ModalExample } from './components/ModalExample';
 import { PaginationExample } from './components/PaginationExample';
 import { AnimationExample } from './components/AnimationExample';
+import { ResponsiveExample } from './components/ResponsiveExample';
 
 function App() {
   return (
@@ -55,6 +56,7 @@ function App() {
         <Route path='modal' element={<ModalExample />} />
         <Route path='pagination' element={<PaginationExample />} />
         <Route path='animation' element={<AnimationExample />} />
+        <Route path='responsive' element={<ResponsiveExample />} />
       </Routes>
     </>
   );

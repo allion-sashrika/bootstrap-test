@@ -30,6 +30,7 @@ const NavBar = () => {
                 <Nav.Link as={Link} to='/modal'>Modal</Nav.Link>
                 <Nav.Link as={Link} to='/pagination'>Pagination</Nav.Link>
                 <Nav.Link as={Link} to='/animation'>Animation</Nav.Link>
+                <Nav.Link as={Link} to='/responsive'>Responsive</Nav.Link>
             </Nav.Item>
         </Nav>
     )
