@@ -31,6 +31,7 @@ const NavBar = () => {
                 <Nav.Link as={Link} to='/pagination'>Pagination</Nav.Link>
                 <Nav.Link as={Link} to='/animation'>Animation</Nav.Link>
                 <Nav.Link as={Link} to='/responsive'>Responsive</Nav.Link>
+                <Nav.Link as={Link} to='/lazyload'>Lazy Load</Nav.Link>
             </Nav.Item>
         </Nav>
     )

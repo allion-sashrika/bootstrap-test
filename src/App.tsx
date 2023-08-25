@@ -27,6 +27,7 @@ import { ModalExample } from './components/ModalExample';
 import { PaginationExample } from './components/PaginationExample';
 import { AnimationExample } from './components/AnimationExample';
 import { ResponsiveExample } from './components/ResponsiveExample';
+const LazyLoad = React.lazy(() => import('./components/LazyLoadExample'))
 
 function App() {
   return (
@@ -57,6 +58,7 @@ function App() {
         <Route path='pagination' element={<PaginationExample />} />
         <Route path='animation' element={<AnimationExample />} />
         <Route path='responsive' element={<ResponsiveExample />} />
+        <Route path='lazyload' element={<React.Suspense><LazyLoad /></React.Suspense>} />
       </Routes>
     </>
   );
